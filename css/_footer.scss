@@ -1,0 +1,25 @@
+.footer{
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    background-color: darkseagreen;
+
+    }
+   ul{
+       display: flex;
+       padding: 20px;
+     h2{
+         color: darkslategrey;
+     }
+    }
+       li{
+           padding: 8px;
+           p{
+               padding-top: 5px;
+           }
+       } 
+       a{
+           color: white;
+       }
+}

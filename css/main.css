@@ -17,7 +17,7 @@ body {
 }
 
 .header {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .header .container {
@@ -96,5 +96,40 @@ body {
 .main .main-left .ul .li .img {
   width: 30px;
   height: 30px;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: darkseagreen;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+}
+
+.footer ul h2 {
+  color: darkslategrey;
+}
+
+.footer li {
+  padding: 8px;
+}
+
+.footer li p {
+  padding-top: 5px;
+}
+
+.footer a {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
