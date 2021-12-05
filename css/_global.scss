@@ -1,0 +1,25 @@
+$btncolor: #D0A757;
+$titlecolor: #2F2F2F;
+$textcolor: #828282;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: white;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@mixin btn {
+      background-color: $btncolor; 
+     border: none;
+     border-radius: 10px;   
+     padding: 10px; 
+}

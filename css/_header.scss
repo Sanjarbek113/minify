@@ -1,0 +1,31 @@
+
+
+.header{
+    background-color: whitesmoke;
+    .container{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+    h2{
+        color: $titlecolor;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+    }
+    li{
+        padding: 20px;
+    }
+    a{
+        color: $textcolor;
+       &:hover{
+           text-decoration: underline;
+           color: black;
+       }
+    }
+
+    
+}
