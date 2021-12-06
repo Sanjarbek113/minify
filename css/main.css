@@ -966,6 +966,34 @@ li.box-main-item {
   padding: 10px;
 }
 
+.char .container .char-list {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-animation-name: translate;
+          animation-name: translate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.char .container .char-img {
+  -webkit-animation-name: Scale;
+          animation-name: Scale;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+}
+
 .graph {
   margin-top: 60px;
 }
@@ -994,6 +1022,34 @@ li.box-main-item {
   font-size: 20px;
   line-height: 30px;
   word-spacing: 2px;
+}
+
+.graph .container .graph-text {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-animation-name: Translate;
+          animation-name: Translate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.graph .container .graph-img {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-animation-name: Image;
+          animation-name: Image;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .title {
@@ -1032,6 +1088,34 @@ li.box-main-item {
 .line ul p {
   color: darkslategray;
   font-size: 20px;
+}
+
+.line .line-img {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-animation-name: Rotate;
+          animation-name: Rotate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.line h2, .line p {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-animation-name: Translate;
+          animation-name: Translate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .bar {
@@ -1084,5 +1168,132 @@ li.box-main-item {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+.bar iframe {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-animation-name: Image;
+          animation-name: Image;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.bar h2 {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-animation-name: translate;
+          animation-name: translate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.bar button {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-animation-name: Rotate;
+          animation-name: Rotate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 400px;
+  }
+  .char .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .char .container img {
+    width: 300px;
+  }
+  .char .container .char-text {
+    width: 350px;
+  }
+  .graph p, .graph img, .graph iframe {
+    width: 350px;
+    position: relative;
+  }
+  .graph iframe {
+    height: 250px;
+  }
+  .line-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .line-flex ul {
+    padding-bottom: 50px;
+  }
+  .bar .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bar .container .input-name, .bar .container .input-text {
+    width: 300px;
+    margin-left: 40px;
+  }
+  .bar .container button {
+    margin-left: 200px;
+  }
+  .bar iframe {
+    width: 300px;
+    height: 250px;
+  }
+  .footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */
