@@ -1,3 +1,89 @@
 @import "./header";
 @import "./global";
 @import "./footer";
+
+.title{
+    .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            .title-list{
+                display: flex;
+                justify-content: left;
+                align-items: center;
+            }
+            p{
+                font-size: 25px;
+                padding: 10px;
+                padding-right: 20px;
+
+            
+            &:hover{
+                  color: orangered;
+                  text-decoration: underline;          
+            }
+        }
+        }
+    }
+
+     .map{
+         .container{
+             display: flex;
+             justify-content: space-evenly;
+             align-items: center;
+               img{
+                   padding: 10px;
+               }
+               .map-img{
+                   padding-top: 40px;
+               }
+               .map-icon{
+                   padding-bottom: 40px;
+               }
+            }
+         
+     }
+     .segment{
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h2{
+                text-align: left;
+                width: 80%;
+            }
+    
+        }
+    }
+
+    @media(max-width:520px){
+        .container{
+            width: 400px;
+        }
+        .title{
+           h2{
+            font-size: 25px;
+           }
+             p{
+                 font-size: 20px;
+             }
+        }
+        
+        .map{
+            .container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            img{
+                width: 400px;
+            }
+            .map-icon{
+                width: 300px;
+                padding-left: 30px;
+            }
+          
+        }
+    }
