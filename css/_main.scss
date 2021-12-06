@@ -392,3 +392,118 @@ li.box-main-item{
     }
 }
 }
+
+.main-img{
+    transition: 0.7s;
+    animation-name: Image;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    animation-duration: 5s;
+     
+    
+    
+}
+.main-icon{
+    transition: 0.7s;
+    animation-name: Image;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    animation-duration: 5s;
+     
+}
+.box-img, .box-title, .title,{
+    transition: 0.7s;
+    animation-name: Scale;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    animation-duration: 5s;
+     
+}
+.box-main-img, .content-title{
+    transition: 0.7s;
+    animation-name: translate;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    animation-duration: 5s;
+     
+}
+.main-center-list{
+    button{
+        transition: 0.7s;
+        animation-name: Rotate;
+        animation-delay: 1s;
+        animation-iteration-count: 2;
+        animation-direction: alternate-reverse;
+        animation-duration: 5s;
+         
+    }
+}
+.project-main-img, .leg-list{
+    transition: 0.7s;
+    animation-name: Rotate;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    animation-duration: 5s;
+     
+}
+.main-item, .box-text, .project-title, .content-text{
+    transition: 0.7s;
+    animation-name: Translate;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    animation-duration: 5s;
+     
+}
+.project-img, .contnet-img{
+    transition: 0.7s;
+    animation-name: Image;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+    animation-duration: 5s;
+     
+}
+@keyframes Scale{
+    from{
+        transform: scale(0.5,0.5);
+    }
+    to{
+        transform: scale(1.2,1.2);
+    }
+}
+@keyframes translate{
+    from{
+        transform: translate(-50px,-50px);
+    }
+    to{
+        transform: translate(50px,50px);
+    }
+}
+@keyframes Rotate{
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes Translate{
+    from{
+        transform: translate(-50px);
+    }
+    to{
+        transform: translate(50px);
+    }
+}
+@keyframes Image{
+    to{
+        transform: scale(0.6,0.6);
+    }
+}
