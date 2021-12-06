@@ -1234,6 +1234,7 @@ li.box-main-item {
   .graph p, .graph img, .graph iframe {
     width: 350px;
     position: relative;
+    text-align: center;
   }
   .graph iframe {
     height: 250px;
@@ -1294,6 +1295,10 @@ li.box-main-item {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .header .container ul h2 {
+    width: 100px;
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */

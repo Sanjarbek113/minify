@@ -202,6 +202,7 @@
         p, img, iframe{
             width: 350px;
             position: relative;
+            text-align: center;
         }
         iframe{
             height: 250px;
@@ -246,6 +247,16 @@
                  align-items: center;
              }
          }
-}
+             .header{
+               .container{
+                   ul{
+                       h2{
+                           width: 100px;
+                           font-size: 20px;
+                       }
+                   }
+               }
+             }
+        }
 
 
