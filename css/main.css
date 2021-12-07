@@ -414,6 +414,29 @@ li.box-main-item {
   text-align: center;
 }
 
+.titlee {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+  left: 10%;
+  top: 20%;
+  margin-bottom: 50px;
+}
+
+.flex-leg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 120px;
+}
+
 .leg-list {
   padding-top: 10px;
   border: 2px solid white;
@@ -1483,11 +1506,11 @@ body {
   .container {
     width: 400px;
   }
-  .title h2 {
+  .title .container ul li h2 {
     font-size: 25px;
   }
-  .title p {
-    font-size: 20px;
+  .title .container ul li p {
+    font-size: 15px;
   }
   .map .container {
     display: -webkit-box;

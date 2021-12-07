@@ -225,6 +225,20 @@ li.box-main-item{
     align-items: center;
     text-align: center;
 }
+.titlee{
+    align-items: center;
+    text-align: center;
+     position: relative;
+     left: 10%;
+     top: 20%;
+     margin-bottom: 50px;
+}
+.flex-leg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 120px;
+}
 .leg-list{
     padding-top: 10px;
     border: 2px solid white;
@@ -507,3 +521,4 @@ li.box-main-item{
         transform: scale(0.6,0.6);
     }
 }
+
