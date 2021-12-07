@@ -1475,10 +1475,32 @@ body {
 
 .map .container img {
   padding: 10px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-animation-name: Rotate;
+          animation-name: Rotate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .map .container .map-img {
   padding-top: 40px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-animation-name: Image;
+          animation-name: Image;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  animation-direction: alternate-reverse;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
 }
 
 .map .container .map-icon {
