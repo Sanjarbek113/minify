@@ -16,6 +16,24 @@ body {
   margin: 0 auto;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
 .header {
   background-color: white;
 }
@@ -883,6 +901,24 @@ li.box-main-item {
   color: white;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
 .header {
   background-color: white;
 }
@@ -1325,6 +1361,24 @@ li.box-main-item {
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
 .header {
   background-color: white;
 }
@@ -1556,5 +1610,90 @@ body {
     width: 300px;
     padding-left: 30px;
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: white;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header h2 {
+  color: #2F2F2F;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.header li {
+  padding: 20px;
+}
+
+.header a {
+  color: #828282;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+body {
+  background-color: red;
 }
 /*# sourceMappingURL=main.css.map */
