@@ -866,6 +866,10 @@ li.box-main-item {
   }
 }
 
+.container {
+  background-color: white;
+}
+
 .footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1692,8 +1696,7 @@ body {
   text-decoration: underline;
   color: black;
 }
-
-body {
-  background-color: red;
+body{
+  background-color: white;
 }
 /*# sourceMappingURL=main.css.map */
